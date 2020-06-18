@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="firefox"/>
+  <test parallel="tests" name="Test2(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.testyantrascripts.CompatabilityTesting">
+        <methods>
+          <include name="tc_01" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testyantrascripts.CompatabilityTesting -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
